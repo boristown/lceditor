@@ -1,4 +1,23 @@
 from typing import *
+from bisect import *
+from collections import *
+#['sys', 'builtins', 'marshal', 'posix', 
+# 'time', 'zipimport', 'codecs', 'encodings', 
+# 'abc', 'io', 'stat', 'genericpath', 'posixpath', 
+# 'os', 'pwd', 'sitecustomize', 'site', 'types', 
+# 'enum', 'sre_constants', 'sre_parse', 'sre_compile', 
+# 'itertools', 'keyword', 'operator', 'reprlib', 
+# 'collections', 'functools', 'copyreg', 're', 
+# 'string', 'math', 'datetime', 'heapq', 'bisect', 
+# 'weakref', 'copy', 'warnings', 'random', 'numbers', 
+# 'decimal', 'fractions', 'statistics', 'json', 
+# 'precompiled', 'gettext', 'argparse', 'locale', 
+# 'errno', 'fnmatch', 'zlib', 'bz2', 'lzma', 
+# 'shutil', 'signal', 'threading', 'contextlib', 
+# 'fcntl', 'select', 'selectors', 'subprocess', 
+# 'platform', 'uuid', 'sysconfig', 'struct', 
+# 'zoneinfo', 'orjson', 'ujson', 'array', 'typing']
+
 
 ###code begin###
 
