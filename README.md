@@ -2,7 +2,9 @@
 
 完美复制力扣Python3运行环境，
 
-> 请先安装python3.10
+> 需要python3.10以上环境
+
+> 以下教程通过Visual Studio Code演示
   
   ## 使用方式：
 
