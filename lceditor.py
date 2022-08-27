@@ -1,7 +1,5 @@
-import sys
-import leetcode
-
 def run():
+    import leetcode
     dirs = dir(leetcode)
     if "Solution" in dirs:
         #smodu = sys.modules[__name__]
