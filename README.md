@@ -1,6 +1,8 @@
 # 力扣(leetcode)编辑器
 
-完美复制力扣Python3运行环境，
+我不帮你刷题，我只是帮你把力扣Python3运行环境搬运到本地。
+
+项目地址：https://github.com/boristown/lceditor
 
 > 需要python3.10以上环境
 
