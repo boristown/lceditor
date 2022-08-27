@@ -50,4 +50,4 @@
 ![设计题](/pics/sample2.jpg)
 
 
-  5. 完整代码请参考`samply1.py`和`sample2.py`。
+  5. 完整代码请参考[常规题示例](sample1.py)和[设计题示例](sample2.py)。
