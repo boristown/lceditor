@@ -1,6 +1,6 @@
 # 力扣(leetcode)编辑器
 
-我不帮你刷题，我只是帮你把力扣Python3运行环境搬运到本地。
+我不生产题，我只是力扣运行环境的搬运工。
 
 项目地址：https://github.com/boristown/lceditor
 
