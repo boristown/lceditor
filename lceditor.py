@@ -1,24 +1,18 @@
 import sys
 import os
-def run():
+def run(in_path):
     back_frame = sys._getframe().f_back
     back_filename = os.path.basename(back_frame.f_code.co_filename)
-    back_funcname = back_frame.f_code.co_name
-    back_lineno = back_frame.f_lineno
-
-    print(back_filename)
-    print(back_funcname)
-    print(back_lineno)
-    module_t=__import__(back_filename[:-3])
-    #import leetcode
-    dirs = dir(module_t)
+    back_module_name = back_filename[:-3]
+    back_module=__import__(back_module_name)
+    dirs = dir(back_module)
     if "Solution" in dirs:
-        cls = getattr(module_t,"Solution")
+        cls = getattr(back_module,"Solution")
         funcname = dir(cls)[-1]
         solu = cls()
         func = getattr(solu,funcname)
         param_cnt = func.__code__.co_argcount-1
-        with open("in.txt","r") as infile:
+        with open(in_path,"r") as infile:
             lines = infile.readlines()
         sample_cnt = len(lines) // param_cnt
         ind = 0
@@ -30,7 +24,7 @@ def run():
             ans = func(*params)
             print(ans)
     else:
-        with open("in.txt","r") as infile:
+        with open(in_path,"r") as infile:
             lines = infile.readlines()
         if len(lines) == 2:
             funcnames = eval(lines[0])
@@ -40,7 +34,8 @@ def run():
             funcnames = funcnames[1:]
             funcparams = funcparams[1:]
             strparam = ",".join(map(str,classparam))
-            code = "sol = "+back_filename[:-3]+"." + str(classname) + "("+strparam+")\n"
+            code = "import "+back_module_name+"\n"
+            code += "sol = "+back_module_name+"." + str(classname) + "("+strparam+")\n"
             code += "ans = [None]\n"
             for fun,par in zip(funcnames,funcparams):
                 strparam = ",".join(map(str,par))

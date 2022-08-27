@@ -1,8 +1,8 @@
 from lclibs import *
 ###code begin###
 
-#1. 两数之和
-#https://leetcode.cn/problems/two-sum/
+# 1. 两数之和
+# https://leetcode.cn/problems/two-sum/
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
@@ -16,4 +16,4 @@ class Solution:
 
 if __name__ == '__main__':
     import lceditor
-    lceditor.run()
+    lceditor.run("sample1.txt")
