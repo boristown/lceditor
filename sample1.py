@@ -1,4 +1,5 @@
 from lclibs import *
+import lceditor
 ###code begin###
 
 # 1. 两数之和
@@ -15,5 +16,4 @@ class Solution:
 ###code end###
 
 if __name__ == '__main__':
-    import lceditor
     lceditor.run("sample1.txt")

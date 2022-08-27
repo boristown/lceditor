@@ -1,4 +1,5 @@
 from lclibs import *
+import lceditor
 ###code begin###
 
 # 303. 区域和检索 - 数组不可变
@@ -19,5 +20,4 @@ class NumArray:
 ###code end###
 
 if __name__ == '__main__':
-    import lceditor
     lceditor.run("sample2.txt")

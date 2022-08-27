@@ -6,10 +6,11 @@
   
   ## 使用方式：
 
-  1. 引入lclibs.py：
+  1. 引入lclibs和lceditor：
 
   ```Python
-  from lclibs import *
+ from lclibs import *
+ import lceditor
   ```
 
   2. 编写力扣解决方案代码：
@@ -31,8 +32,18 @@
 
   ```Python
   if __name__ == '__main__':
-      import lceditor
       lceditor.run("sample1.txt")
   ```
 
   4. 执行/调试。
+    
+- 常规题：
+
+![常规题](/pics/sample1.jpg)
+
+- 设计题：
+
+![设计题](/pics/sample2.jpg)
+
+
+  5. 完整代码请参考`samply1.py`和`sample2.py`。
