@@ -2,7 +2,6 @@ def run():
     import leetcode
     dirs = dir(leetcode)
     if "Solution" in dirs:
-        #smodu = sys.modules[__name__]
         cls = getattr(leetcode,"Solution")
         funcname = dir(cls)[-1]
         solu = cls()
