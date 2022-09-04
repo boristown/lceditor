@@ -1,12 +1,11 @@
 from lclibs import *
 import lceditor
 
-# Problem description:
+# Copy Solution description here:
+'''
 '''
 
-'''
-
-###Solution begin###
+# Copy Solution class here:
 
 # 303. 区域和检索 - 数组不可变
 # https://leetcode.cn/problems/range-sum-query-immutable/
@@ -22,8 +21,6 @@ class NumArray:
     def sumRange(self, i: int, j: int) -> int:
         _sums = self.sums
         return _sums[j + 1] - _sums[i]
-
-###Solution end###
 
 if __name__ == '__main__':
     lceditor.run("sample2.txt")
