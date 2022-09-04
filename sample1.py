@@ -1,6 +1,12 @@
 from lclibs import *
 import lceditor
-###code begin###
+
+# Problem description:
+'''
+
+'''
+
+###Solution begin###
 
 # 1. 两数之和
 # https://leetcode.cn/problems/two-sum/
@@ -13,7 +19,7 @@ class Solution:
                     return [i, j]
         return []
 
-###code end###
+###Solution end###
 
 if __name__ == '__main__':
     lceditor.run("sample1.txt")

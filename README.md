@@ -51,3 +51,7 @@
 
 
   5. 完整代码请参考[常规题示例](sample1.py)和[设计题示例](sample2.py)。
+
+  6. 结合Github Copilot插件使用，体验更佳：
+
+<iframe height=600 width=800 allowfullscreen="true" src="/pics/lcedition_copilot.mp4">
