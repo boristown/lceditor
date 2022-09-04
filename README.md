@@ -54,4 +54,6 @@
 
   6. 结合Github Copilot插件使用，体验更佳：
 
-<iframe height=600 width=800 allowfullscreen="true" src="/pics/lcedition_copilot.mp4">
+![lceditor+copilot自动刷题](/pics/lceditor_copilot.gif)
+
+[lceditor+copilot自动刷题.mp4](/pics/lceditor_copilot.mp4)
