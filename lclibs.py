@@ -17,14 +17,14 @@ from sre_parse import *
 from sre_compile import * 
 from itertools import *
 from keyword import *
-from operator import *
+#from operator import *
 from reprlib import * 
 from collections import *
 from functools import *
 from copyreg import *
 from re import * 
 from string import *
-from math import *
+#from math import *
 from datetime import *
 from heapq import *
 from bisect import * 
